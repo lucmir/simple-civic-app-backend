@@ -12,10 +12,10 @@ npm install
 
 Running:
 ```
-export CIVIC_APP_ID=<civic-app-id>
-export CIVIC_APP_SECRET=<civic-app-secret>
-export CIVIC_APP_PRIVATE_KEY=<civic-app-private-key>
-export SIP_API_ENV=<dev|prod>
+export CIVIC_APP_ID="<civic-app-id>"
+export CIVIC_APP_SECRET="<civic-app-secret>"
+export CIVIC_APP_PRIVATE_KEY="<civic-app-private-key>"
+export SIP_API_ENV="<dev|prod>"
 npm start
 ```
 The application will be available on `http://localhost:3000`.
@@ -34,10 +34,10 @@ docker build . -t simple-civic-app-backend
 
 With the image built, the following command will start the application:
 ```
-docker run -e CIVIC_APP_ID=<civic-app-id> \
-           -e CIVIC_APP_SECRET=<civic-app-secret> \
-           -e CIVIC_APP_PRIVATE_KEY=<civic-app-private-key> \
-           -e SIP_API_ENV=<dev|prod> \
+docker run -e CIVIC_APP_ID="<civic-app-id>" \
+           -e CIVIC_APP_SECRET="<civic-app-secret>" \
+           -e CIVIC_APP_PRIVATE_KEY="<civic-app-private-key>" \
+           -e SIP_API_ENV="<dev|prod>" \
            -p 3000:3000
            simple-civic-app-backend
 ```
