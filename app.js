@@ -7,7 +7,8 @@ const port = 3000;
 const tokenRequester = new TokenRequester(
   config.get('civicApp.id'),
   config.get('civicApp.secret'),
-  config.get('civicApp.privateKey')
+  config.get('civicApp.privateKey'),
+  config.get('sipApiEnv')
 );
 
 // routes

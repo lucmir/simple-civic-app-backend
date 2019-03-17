@@ -3,5 +3,6 @@
     "id": "your-civic-app-id",
     "secret": "your-civic-app-secret",
     "privateKey": "your-civic-app-private-key"
-  }
+  },
+  "sipApiEnv": "dev"
 }

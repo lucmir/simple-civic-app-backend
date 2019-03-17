@@ -1,11 +1,12 @@
 const civicSip = require('civic-sip-api');
 
 class TokenRequester {
-  constructor(appId, appSecret, appPrivateKey) {
+  constructor(appId, appSecret, appPrivateKey, sipApiEnv = 'dev') {
     this.civicClient = civicSip.newClient({
-      appId: appId,
-      appSecret: appSecret,
+      appId,
+      appSecret,
       prvKey: appPrivateKey,
+      env: sipApiEnv,
     });
   }
 
