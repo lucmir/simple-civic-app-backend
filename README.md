@@ -20,7 +20,7 @@ npm start
 ```
 The application will be available on `http://localhost:3000`.
 
-Running tests:
+Testing:
 ```
 npm test
 ```
