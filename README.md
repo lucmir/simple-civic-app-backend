@@ -12,7 +12,10 @@ npm install
 
 Running:
 ```
-CIVIC_APP_ID=<civic-app-id> CIVIC_APP_SECRET=<civic-app-secret> CIVIC_APP_PRIVATE_KEY=<civic-app-private-key> npm start
+export CIVIC_APP_ID=<civic-app-id>
+export CIVIC_APP_SECRET=<civic-app-secret>
+export CIVIC_APP_PRIVATE_KEY=<civic-app-private-key>
+npm start
 ```
 
 Running tests:
