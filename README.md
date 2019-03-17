@@ -43,6 +43,7 @@ docker run -e CIVIC_APP_ID="<civic-app-id>" \
 ```
 
 The application will be available on `http://localhost:3000`.
+
 To run in a different port, change the `-p` parameter to `-p <port>:3000`.
 
 
