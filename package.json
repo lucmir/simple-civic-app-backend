@@ -1,0 +1,20 @@
+{
+  "name": "simple-civic-app-backend",
+  "version": "1.0.0",
+  "description": "Simple Civic app backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "civic-sip-api": "git+https://github.com/civicteam/npm-civic-sip-api.git#feature/ccs-891-request-ephemeral-token",
+    "config": "^3.0.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
