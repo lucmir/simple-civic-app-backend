@@ -42,7 +42,8 @@ docker run -e CIVIC_APP_ID="<civic-app-id>" \
            simple-civic-app-backend
 ```
 
-The application will be available on `http://localhost:3000`. To run in a different port, change the `-p` parameter to `-p <port>:3000`.
+The application will be available on `http://localhost:3000`.
+To run in a different port, change the `-p` parameter to `-p <port>:3000`.
 
 
 ### Requesting a token
