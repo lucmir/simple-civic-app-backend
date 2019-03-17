@@ -32,5 +32,8 @@ docker build . -t simple-civic-app-backend
 
 With the image built, the following command will start the application:
 ```
-docker run -e CIVIC_APP_ID=<civic-app-id> -e CIVIC_APP_SECRET=<civic-app-secret> -e CIVIC_APP_PRIVATE_KEY=<civic-app-private-key> simple-civic-app-backend
+docker run -e CIVIC_APP_ID=<civic-app-id> \
+           -e CIVIC_APP_SECRET=<civic-app-secret> \
+           -e CIVIC_APP_PRIVATE_KEY=<civic-app-private-key> \
+           simple-civic-app-backend
 ```
